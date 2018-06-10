@@ -1,0 +1,25 @@
+// Sections
+// ---------------
+
+section {
+	position: relative;
+	margin:0;
+	padding:60px 100px;
+}
+
+.welcome {
+	// height: 100vh;
+	overflow: hidden;
+	&__wrap {
+		width: 100%;
+		max-width: 50%;
+		position: relative;
+	}
+	&__bg {
+		position: absolute;
+		top: 0;
+		right: 0;
+		transform: translate(15%);
+		height: 100vh;
+	}
+}

@@ -1,0 +1,15 @@
+// MAIN
+// ---------------
+#app {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	background: $white;
+	height: auto;
+	min-height: 100vh;
+	box-shadow: 0 0 50px rgba($black, .5);
+}
+
+main {
+	margin-left: 300px;
+}

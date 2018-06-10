@@ -1,0 +1,38 @@
+.ul-reset {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	& > li {
+		padding: 0;
+		margin: 0;
+	}
+}
+
+.services {
+	margin: 40px 0;
+	li {
+		background: $blue;
+		text-align: center;
+		margin: 0 10px 10px 0;
+		width: 30%;
+		max-width: 175px;
+		&.blue {
+			background: $orange;
+		}
+		&.red {
+			background: $red;
+		}
+	}
+	a {
+		display: block;
+		padding: 20px;
+		color: $white;
+		text-decoration: none;
+	}
+	img {
+		display: block;
+		margin: 0 auto 5px;
+		width: 60px;
+		height: 60px;
+	}
+}

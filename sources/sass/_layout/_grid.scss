@@ -1,0 +1,9 @@
+.fx {
+	@extend %fx;
+	&.-md {
+		@extend %al--center;
+	}
+	&.-cn {
+		@extend %fx--center;
+	}
+}

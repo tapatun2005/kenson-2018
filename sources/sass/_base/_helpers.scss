@@ -1,0 +1,33 @@
+// FLEX BOX
+
+%fx {
+	display: flex;
+	flex-wrap: wrap;
+	&--between {
+		justify-content: space-between;
+	}
+	&--around {
+		justify-content: space-around;
+	}
+	&--center {
+		justify-content: center;
+	}
+	&--nowrap {
+		flex-wrap: nowrap;
+	}
+	&--col {
+		flex-direction: column;
+	}
+}
+
+%al {
+	&--center {
+		align-items: center;
+	}
+	&--top {
+		align-items: flex-start;
+	}
+	&--bottom {
+		align-items: flex-end;
+	}
+}

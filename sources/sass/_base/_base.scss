@@ -1,0 +1,13 @@
+*, 
+*:after, 
+*:before {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	background: $blue-dark;
+	font-family: "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	overflow-x: hidden; 
+}
